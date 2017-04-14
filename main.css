@@ -3,13 +3,39 @@
 html {
     text-align: center;
     padding: 2em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Julee", cursive, sans-serif;
+    font-size: 1.4em;
+    color: white;
+    background-color: rgb(165,30,16);
 }
 
 .fortune-cookie-saying-wrapper {
-    border: 1px solid #666;
+    border: 3px solid rgb(227,155,67);
+    border-radius: 5px;
     padding: 1em;
     margin: 1em;
+}
+
+button {
+  background-color: rgb(227,155,67);
+  border: none;
+  border-radius: 5px;
+  color: rgb(165,30,16);
+  padding: 15px 32px;
+  text-align: center;
+  font-family: "Julee", cursive, sans-serif;
+  font-size: 1.1em;
+  margin: 10px 2px 21px 2px;
+  cursor: pointer; 
+}
+
+hr {
+  color: rgb(227,155,67);
+  border-width: 2px;
+}
+
+#previous-fortunes-container {
+  margin-left: -40px;
 }
 
 li {
